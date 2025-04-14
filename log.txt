@@ -1,0 +1,58 @@
+Files containing the word "apple
+
+Using 4 threads.
+
+Processing directory: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data"
+
+Processing directory: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_5"
+
+Thread 2 checking file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_5/file_1.txt"
+
+Thread 3 checking file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_5/file_3.txt"
+
+Thread 1 checking file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_5/file_2.txt"
+
+Thread 1 found word in file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_5/file_2.txt"
+
+Processing directory: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_2"
+
+Thread 2 checking file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_2/file_1.txt"
+
+Thread 1 checking file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_2/file_2.txt"
+
+Thread 3 checking file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_2/file_3.txt"
+
+Thread 2 found word in file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_2/file_1.txt"
+
+Thread 1 found word in file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_2/file_2.txt"
+
+Processing directory: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_3"
+
+Thread 2 checking file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_3/file_1.txt"
+
+Thread 3 checking file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_3/file_3.txt"
+
+Thread 1 checking file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_3/file_2.txt"
+
+Thread 1 found word in file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_3/file_2.txt"
+
+Processing directory: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_4"
+
+Thread 2 checking file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_4/file_1.txt"
+
+Thread 3 checking file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_4/file_2.txt"
+
+Thread 1 checking file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_4/file_3.txt"
+
+Processing directory: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_1"
+
+Thread 2 checking file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_1/file_1.txt"
+
+Thread 1 checking file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_1/file_3.txt"
+
+Thread 3 checking file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_1/file_2.txt"
+
+Thread 2 found word in file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_1/file_1.txt"
+
+Thread 3 found word in file: "/Users/rahulbaradol/Documents/college_6thsem/HP/project/test_data/folder_1/file_2.txt"
+

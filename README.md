@@ -78,4 +78,13 @@ After compiling your binary (let's assume it’s called `search_tool`):
 - All logs and debug messages go to `log.txt`
 - **Matches (i.e., files where word was found)** are **also printed live to the terminal**
 
+## Benchmarking 
+
+The tool we are benchmarking against is ripgrep 
+- To install ripgrep in Linux
+
+```bash
+sudo apt update && sudo apt install ripgrep
+```
+
 ---

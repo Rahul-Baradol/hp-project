@@ -1,3 +1,4 @@
-./complex_fs
+complex_fs/
+simple_fs/
 
-./simple_fs
+.vscode/

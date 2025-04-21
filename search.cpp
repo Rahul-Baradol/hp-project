@@ -8,6 +8,7 @@
 #include <algorithm>
 #include <sstream>
 #include <omp.h>
+#include <chrono>
 
 namespace fs = std::filesystem;
 
@@ -34,6 +35,8 @@ int main(int argc, char* argv[]) {
         std::cerr << "Usage: " << argv[0] << " <root_path> <word> [--mode=exact|case|fuzzy]\n";
         return 1;
     }
+
+    auto start_time = std::chrono::high_resolution_clock::now();
 
     fs::path root_path = argv[1];
     std::string word = argv[2];
@@ -104,6 +107,10 @@ int main(int argc, char* argv[]) {
         }
     }
 
+    auto end_time = std::chrono::high_resolution_clock::now();
+    std::chrono::duration<double> elapsed = end_time - start_time;
+
+    std::cout << "\nSearch completed in " << elapsed.count() << " seconds\n";
     return 0;
 }
 

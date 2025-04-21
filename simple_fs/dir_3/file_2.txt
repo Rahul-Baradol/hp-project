@@ -1,0 +1,2 @@
+File 2 in ./simple_fs/dir_3 without anything suspicious.
+Hey, here's a RISHI in this one.

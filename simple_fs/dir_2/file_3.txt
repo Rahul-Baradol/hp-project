@@ -1,0 +1,1 @@
+File 3 in ./simple_fs/dir_2 without anything suspicious.

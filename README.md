@@ -87,4 +87,10 @@ The tool we are benchmarking against is ripgrep
 sudo apt update && sudo apt install ripgrep
 ```
 
+just run the benchmark script and the output will be available in the benchmark_result.log
+```bash
+./benchmark.sh
+```
+
+
 ---

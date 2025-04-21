@@ -1,4 +1,7 @@
 complex_fs/
 simple_fs/
 
+log.txt
+*.log
+
 .vscode/

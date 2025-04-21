@@ -1,2 +1,0 @@
-This is file 4 in dir ./complex_fs/level1_dir_1/level2_dir_2
-This line has the wassup in it.

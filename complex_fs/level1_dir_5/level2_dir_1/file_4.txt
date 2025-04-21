@@ -1,2 +1,0 @@
-This is file 4 in dir ./complex_fs/level1_dir_5/level2_dir_1
-This line has the INFERNO in it.

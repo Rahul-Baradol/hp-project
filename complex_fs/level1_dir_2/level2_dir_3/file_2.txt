@@ -1,1 +1,0 @@
-This is file 2 in dir ./complex_fs/level1_dir_2/level2_dir_3

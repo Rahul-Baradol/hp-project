@@ -16,6 +16,21 @@ tools = {
     "rg -F -l --threads 4": 0.010,
 }
 
+tools1 = {
+    "search_tool -exact": 0.020,
+    "search_tool -case": 0.009,
+    "search_tool -fuzzy": 0.008,
+    "grep -ril": 0.009,
+    "rg -l": 0.238,
+    "rg -F -l": 0.010,
+    "rg -F -i -l": 0.009,
+    "rg -F -w -l": 0.012,
+    "rg -F -l --no-ignore --no-config": 0.010,
+    "rg -F -l --mmap": 0.013,
+    "rg -F -l --no-mmap": 0.010,
+    "rg -F -l --threads 4": 0.010,
+}
+
 # Sort tools by time
 sorted_tools = dict(sorted(tools.items(), key=lambda item: item[1]))
 

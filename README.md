@@ -5,17 +5,19 @@
 Depending on your system and compiler setup, here are the possible commands:
 
 <details>
-<summary><strong>g++ (on Linux / WSL / Homebrew GCC)</strong></summary>
+<summary><strong>g++ (on Windows / Linux / WSL / Homebrew GCC)</strong></summary>
 
 ```bash
 # If using g++ with OpenMP support (like g++-14 from Homebrew):
-g++-14 -std=c++17 -fopenmp search.cpp -o search_tool
+g++ -std=c++17 -fopenmp search.cpp -o search_tool
+
 
 # Without OpenMP (no parallelism):
 g++ -std=c++17 search.cpp -o search_tool
 ```
 
 </details>
+
 
 <details>
 <summary><strong>clang++ (macOS with Homebrew's libomp)</strong></summary>

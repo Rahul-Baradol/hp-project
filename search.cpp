@@ -74,7 +74,7 @@ int main(int argc, char* argv[]) {
 
         {
             std::lock_guard<std::mutex> lock(cout_mutex);
-            std::cout << "Processing directory: " << current << "\n\n";
+            // std::cout << "Processing directory: " << current << "\n\n";
         }
 
         for (const auto& entry : fs::directory_iterator(current)) {
@@ -92,7 +92,7 @@ int main(int argc, char* argv[]) {
             int thread_id = omp_get_thread_num();
             {
                 std::lock_guard<std::mutex> lock(cout_mutex);
-                std::cout << "Thread " << thread_id << " checking file: " << file_path << "\n\n";
+                // std::cout << "Thread " << thread_id << " checking file: " << file_path << "\n\n";
             }
 
             if (file_contains_word(file_path, word , mode)) {

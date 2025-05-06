@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SEARCH_TERM="apple"
+SEARCH_TERM="banana"
 SEARCH_DIR="./complex_fs"
 LOG_FILE="benchmark_results.log"
 YOUR_TOOL="./search_tool"  # change this if it's not named like this
